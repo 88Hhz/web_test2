@@ -421,7 +421,8 @@ video {
   -moz-appearance: none;
   background-position: right 15px center;
   background-repeat: no-repeat;
-  background-image: url(../select-arrow.png);
+ <!-- background-image: url(../select-arrow.png); -->
+ <img src="select-arrow.png" alt="Image">    
   padding: 14px 20px;
   padding-right: 20px;
   color: #666;
