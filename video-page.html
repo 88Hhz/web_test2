@@ -6,6 +6,7 @@
     <title>Video Catalog</title>
     <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
 
     <!-- https://fonts.google.com/ -->
     <link rel="stylesheet" href="bootstrap.min.css">
@@ -68,7 +69,7 @@
 					<div class="row mb-5 pb-4">
 						<div class="col-12">
 							<!-- Video player 1422x800 -->
-							<video width="1422" height="800" controls autoplay>
+							<video data-dashjs-player autoplay controls style= "width=1422; height=800;" >
 							  <source src="https://myvodservice-koct1.streaming.media.azure.net/fd4436b2-850f-4ba8-aa2c-c72030e79600/IVE 아이브 'After LIKE' MV.ism/manifest(format=mpd-time-cmaf)" type="application/dash+xml"> <!-- DASH -->
 							Your browser does not support the video tag.
 							</video>
